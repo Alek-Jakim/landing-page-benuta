@@ -5,6 +5,7 @@ import './index.css'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import TextSection from './components/TextSection'
+import ImageGrid from './components/ImageGrid'
 
 /*
 - please take the static layout and develop a design grid, does not have to be pixel perfect, but as near as possible
@@ -25,6 +26,7 @@ function App() {
       <Navbar />
       <Banner />
       <TextSection />
+      <ImageGrid />
     </>
   );
 }
