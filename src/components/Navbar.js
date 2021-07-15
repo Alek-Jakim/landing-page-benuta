@@ -2,6 +2,7 @@ import React from 'react'
 
 //External resources
 import logo from '../assets/benuta-logo.png'
+import banner from '../assets/banner-bw-cs.jpg'
 import { tepichList } from '../assets/tepichList'
 import { AiOutlineHeart, AiOutlineUser } from 'react-icons/ai'
 import { GiShoppingCart } from 'react-icons/gi'
@@ -32,6 +33,9 @@ const Navbar = () => {
                     ))}
                 </ul>
             </nav>
+            <div className="banner-container">
+                <img src={banner} alt="banner" className="banner-image" />
+            </div>
         </div>
     )
 }
