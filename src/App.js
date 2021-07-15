@@ -9,12 +9,15 @@ import Navbar from './components/Navbar'
 - Have the width of the landingpage same as benuta website
 - Please use Google Fonts: Montserrat medium & Montserrat light https://fonts.google.com/specimen/Montserrat
 - the four image tiles should have a slight zoom effect, when hovering above them
-- the four image tiles should be vreated as links (target="#")
+- the four image tiles should be treated as links (target="#")
 - please pick the colors yourself from PNG
 - layout should be fully responsive and look good on all devices, especially mobiles
 */
 
 function App() {
+
+  // console.log(document.documentElement.clientWidth);
+
   return (
     <>
       <Navbar />

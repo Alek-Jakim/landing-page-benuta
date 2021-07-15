@@ -12,13 +12,14 @@ body {
 
 /*COMPONENT: Navbar */
 
-.navbar {
+/*Header*/
+.header {
   height: 70px;
   display: flex;
   width: 100%;
   justify-content: space-evenly;
   align-items: center;
-  border-bottom: 2px solid rgb(238, 238, 238);
+  border-bottom: 1px solid rgb(238, 238, 238);
 }
 
 /*Logo*/
@@ -80,9 +81,9 @@ body {
   color: rgb(70, 70, 70);
 }
 
-/*Navbar Icons*/
+/*Header Icons*/
 
-.navbar-icons {
+.header-icons {
   display: flex;
   width: 20%;
   justify-content: center;
@@ -90,7 +91,7 @@ body {
   margin: 0 50px;
 }
 
-.nav-icon {
+.header-icon {
   font-size: 30px;
   padding: 5px 20px;
   cursor: pointer;
@@ -103,6 +104,35 @@ body {
   color: #333;
 }
 
-/* .nav-icon:hover {
-  color: #75c983;
-} */
+
+/*Navbar*/
+
+.navbar{
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
+
+.tepich-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  list-style-type: none;
+  cursor: pointer;
+  padding: 15px 20px;
+}
+
+
+.list-item {
+  letter-spacing: 0.1em;
+  font-size: 0.9rem;
+}
+
+.list-item:last-child {
+  color: rgb(180, 177, 177);
+  border-left: 1px solid rgb(238, 238, 238);
+  padding-left: 30px;
+  padding-right: 10px;
+}
