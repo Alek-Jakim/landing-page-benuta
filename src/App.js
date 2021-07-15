@@ -3,6 +3,8 @@ import './index.css'
 
 //Components
 import Navbar from './components/Navbar'
+import Banner from './components/Banner'
+import TextSection from './components/TextSection'
 
 /*
 - please take the static layout and develop a design grid, does not have to be pixel perfect, but as near as possible
@@ -21,6 +23,8 @@ function App() {
   return (
     <>
       <Navbar />
+      <Banner />
+      <TextSection />
     </>
   );
 }

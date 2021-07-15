@@ -2,12 +2,13 @@ import React from 'react'
 
 //External resources
 import logo from '../assets/benuta-logo.png'
-import banner from '../assets/banner-bw-cs.jpg'
 import { tepichList } from '../assets/tepichList'
 import { AiOutlineHeart, AiOutlineUser } from 'react-icons/ai'
 import { GiShoppingCart } from 'react-icons/gi'
 
 const Navbar = () => {
+
+
     return (
         <div>
             <header className="header">
@@ -29,13 +30,10 @@ const Navbar = () => {
             <nav className="navbar">
                 <ul className="tepich-list">
                     {tepichList.map((item, index) => (
-                        <li className="list-item">{item.toUpperCase()}</li>
+                        <li className="list-item" key={index}>{item.toUpperCase()}</li>
                     ))}
                 </ul>
             </nav>
-            <div className="banner-container">
-                <img src={banner} alt="banner" className="banner-image" />
-            </div>
         </div>
     )
 }
