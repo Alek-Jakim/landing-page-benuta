@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './index.css'
+
+//Components
+import Navbar from './components/Navbar'
+
+/*
+- please take the static layout and develop a design grid, does not have to be pixel perfect, but as near as possible
+- Have the width of the landingpage same as benuta website
+- Please use Google Fonts: Montserrat medium & Montserrat light https://fonts.google.com/specimen/Montserrat
+- the four image tiles should have a slight zoom effect, when hovering above them
+- the four image tiles should be vreated as links (target="#")
+- please pick the colors yourself from PNG
+- layout should be fully responsive and look good on all devices, especially mobiles
+*/
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 

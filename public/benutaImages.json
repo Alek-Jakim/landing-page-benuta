@@ -1,0 +1,22 @@
+[
+    {
+        "name": "banner",
+        "image": "./images/banner-bw-cs.jpg"
+    },
+    {
+        "name": "hochfloor",
+        "image": "./images/bw-cs-hochflor2.jpg"
+    },
+    {
+        "name": "kurzfloor",
+        "image": "./images/bw-cs-kurzflor4.jpg"
+    },
+    {
+        "name": "banner",
+        "image": "./images/bw-cs-neuheiten2.jpg"
+    },
+    {
+        "name": "banner",
+        "image": "./images/bw-cs-vintage2.jpg"
+    }
+]
