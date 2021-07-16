@@ -97,6 +97,13 @@ body {
   cursor: pointer;
 }
 
+.search-icon-mobile {
+  font-size: 2.3rem;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 0;
+}
+
 .search-bar > i:hover {
   color: var(--main-pink);
 }
@@ -134,6 +141,8 @@ body {
   height: 50px;
   width: 100%;
 }
+
+
 
 .tepich-list {
   width: 100%;
@@ -280,8 +289,8 @@ body {
 .menu-wrap .menu > div {
   background: var(--main-pink);
   border-radius: 50%;
-  width: 200vw;
-  height: 200vw;
+  width: 300vw;
+  height: 300vw;
   display: flex;
   flex: none;
   align-items: center;
@@ -320,6 +329,17 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
+}
+
+.mobile-input {
+  display: block;
+  position: absolute;
+  top: 30px;
+  outline: none;
+  padding: 5px 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  width: 250px;
 }
 
 .banner-image {

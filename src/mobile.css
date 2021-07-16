@@ -3,10 +3,13 @@
 @media all and (min-width: 1000px) {
     .burger-menu{
         display: none;
-        margin: 20px auto;
-        padding: 20px;
     }
+}
 
+@media all and (min-width: 700px) {
+    .mobile-input {
+        display: none;
+    }
 }
 
 
@@ -68,9 +71,6 @@
 
 @media all and (max-width: 900px) {
 
-    
-
-
     /*TextSection*/
 
     .text-container {
@@ -124,24 +124,52 @@
     }
 }
 
+
+
 @media all and (max-width: 700px) {
 
-    /**/
+    /*Banner Image*/
+
+    .banner-container {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+      
+      .banner-image {
+        object-fit: cover;
+          overflow: hidden;
+          max-width: 100%;
+      }
+
+    /*TextSection*/
     .text-section {
         height: 350px;
     }
 
+    .text-title {
+        margin-top: 4rem;
+
+    }
+
+    .text-container > h3 {
+        margin-bottom:2rem ;
+    }
+
     .text-title, .text-container > h3 {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .text-container{
-        width: 70%;
+        width: 90%;
     }
     
     .text-body {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         line-height: 1.2;
+        padding: 10px;
     }
 
     .text-announcement {
@@ -155,7 +183,7 @@
         justify-content: center;
         width: 100%;
         align-items: center;
-        margin: 0 auto;
+        margin: 3rem auto;
     }
 
     .grid-wrapper {

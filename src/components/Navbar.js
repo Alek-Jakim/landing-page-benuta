@@ -4,12 +4,11 @@ import React, { useEffect, useState } from 'react'
 //External resources
 import logo from '../assets/benuta-logo.png'
 import { tepichList } from '../assets/tepichList'
-import { AiOutlineHeart, AiOutlineUser } from 'react-icons/ai'
+import { AiOutlineHeart, AiOutlineUser, AiOutlineSearch } from 'react-icons/ai'
 import { GiShoppingCart } from 'react-icons/gi'
 import BurgerMenu from './BurgerMenu'
 
 const Navbar = () => {
-
 
 
     return (
@@ -40,6 +39,7 @@ const Navbar = () => {
                     ))}
                 </ul>
             </nav>
+
 
             <BurgerMenu />
 

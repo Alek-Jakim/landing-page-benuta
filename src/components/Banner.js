@@ -7,21 +7,9 @@ import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } f
 
 const Banner = () => {
 
-    /* const handleClick = (e) => {
-         e.preventDefault();
- 
-         const targetElement = document.querySelector(".text-section")
-         const location = targetElement.offsetTop
- 
-         window.scrollTo({
-             left: 0,
-             top: location,
-             behavior: 'smooth'
-         })
-     }
- */
     return (
         <div className="banner-container">
+            <input className="mobile-input" placeholder="Artikel, Kategorie oder Marke suchen" />
             <img src={banner} alt="banner" className="banner-image" />
             <Link className="banner-btn-icon" to="text-area" smooth={true} duration={1000}>
                 <IoIosArrowDropdownCircle />
