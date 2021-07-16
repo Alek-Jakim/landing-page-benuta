@@ -349,6 +349,28 @@ body {
   transform: scale(0.9);
 }
 
+.scroll-down-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-btn-icon2 {
+  position: absolute;
+  top: -20px;
+  left: 47.5%;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0 auto;
+  bottom: 30px;
+  color: var(--medium-pink);
+  font-size: 4rem;
+  cursor: pointer;
+}
+
 
 /*COMPONENT: TextSection*/
 

@@ -26,7 +26,7 @@ const ImageGrid = () => {
 
 
     return (
-        <div className="images-grid">
+        <div className="images-grid" id="grid-area">
             <div className="grid-wrapper">
                 {
                     data && data.length && data.map((item, index) => (

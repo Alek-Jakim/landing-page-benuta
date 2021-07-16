@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { IoIosArrowDropdownCircle } from 'react-icons/io'
+
 
 const TextSection = () => {
     return (
@@ -11,7 +14,12 @@ const TextSection = () => {
                 <p className="text-body"><span className="text-announcement">Am Dienstag, 24. November 2020 um 12 Uhr geht's los.</span></p>
                 <p className="text-body">Entdecken Sie schon jetzt Teppiche & Accessoires und merken Sie sich Ihre Favoriten für die
                 </p>
-                <h3>Jetzt schon stöbern:</h3>
+                <h3>Jetzt schon stöbern</h3>
+                <div className="scroll-down-btn">
+                    <Link className="banner-btn-icon2" to="grid-area" smooth={true} duration={1000}>
+                        <IoIosArrowDropdownCircle />
+                    </Link>
+                </div>
             </div>
         </section>
     )
