@@ -6,18 +6,24 @@ import logo from '../assets/benuta-logo.png'
 import { tepichList } from '../assets/tepichList'
 import { AiOutlineHeart, AiOutlineUser } from 'react-icons/ai'
 import { GiShoppingCart } from 'react-icons/gi'
-import { GiHamburgerMenu } from 'react-icons/gi'
-import Media from 'react-media'
+import BurgerMenu from './BurgerMenu'
 
 const Navbar = () => {
 
+    // <GiHamburgerMenu className="burger-menu" />
 
+    function onClickMenu() {
+        document.getElementById("menu").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+
+        document.getElementById("menu-bg").classList.toggle("change-bg");
+    }
 
     return (
         <div className="main-container">
 
             <header className="header">
-                <GiHamburgerMenu className="burger-menu" />
+
                 <div className="logo-container">
                     <img src={logo} alt="benuta-logo" className="logo" />
                 </div>
@@ -33,6 +39,7 @@ const Navbar = () => {
                 </div>
 
             </header>
+
             <nav className="navbar">
                 <ul className="tepich-list">
                     {tepichList.map((item, index) => (
@@ -40,6 +47,9 @@ const Navbar = () => {
                     ))}
                 </ul>
             </nav>
+
+            <BurgerMenu />
+
         </div>
     )
 }
