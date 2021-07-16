@@ -2,7 +2,7 @@ import React from 'react'
 
 const TextSection = () => {
     return (
-        <section className="text-section">
+        <section className="text-section" id="text-area">
             <div className="text-container">
                 <h2 className="text-title">Bereit für den Sale des Jahres?</h2>
                 <p className="text-body">Am 27. November 2020 ist Black Friday. Doch einen Tag voller Schnäppchen kann jeder. Wir setzen noch einen drauf und machen aus dem Black Friday Sale eine ganze BLACK WEEK!
