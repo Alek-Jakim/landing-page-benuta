@@ -17,7 +17,7 @@ const BurgerMenu = () => {
                     <div>
                         <ul>
                             {tepichList.map((item, index) => (
-                                <li key={index}>{item}</li>
+                                <li className="burger-list" key={index}>{item}</li>
                             ))}
                         </ul>
                     </div>
