@@ -1,17 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+
 
 //External resources
 import logo from '../assets/benuta-logo.png'
 import { tepichList } from '../assets/tepichList'
 import { AiOutlineHeart, AiOutlineUser } from 'react-icons/ai'
 import { GiShoppingCart } from 'react-icons/gi'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import Media from 'react-media'
 
 const Navbar = () => {
 
 
+
     return (
-        <div>
+        <div className="main-container">
+
             <header className="header">
+                <GiHamburgerMenu className="burger-menu" />
                 <div className="logo-container">
                     <img src={logo} alt="benuta-logo" className="logo" />
                 </div>

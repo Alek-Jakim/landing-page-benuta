@@ -1,18 +1,18 @@
 [
     {
-        "name": "Vintage",
+        "name": "Hochfloorteppiche",
+        "image": "./images/bw-cs-hochflor2.jpg"
+    },
+    {
+        "name": "Kurzflorteppiche",
+        "image": "./images/bw-cs-kurzflor4.jpg"
+    },
+    {
+        "name": "Vintageteppiche",
         "image": "./images/bw-cs-vintage2.jpg"
     },
     {
         "name": "Neuheiten",
         "image": "./images/bw-cs-neuheiten2.jpg"
-    },
-    {
-        "name": "Hochfloor",
-        "image": "./images/bw-cs-hochflor2.jpg"
-    },
-    {
-        "name": "Kurzflor",
-        "image": "./images/bw-cs-kurzflor4.jpg"
     }
 ]

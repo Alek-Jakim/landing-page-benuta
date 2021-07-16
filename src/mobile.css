@@ -1,0 +1,177 @@
+/* COMPONENT: Navbar*/
+
+@media all and (min-width: 1000px) {
+    .burger-menu{
+        display: none;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+}
+
+
+@media all and (max-width: 1000px) {
+    body {
+        width: 100%;
+        display: flex;justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .header-icons {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-container {
+        width: 70%;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    /*Banner*/
+
+    .banner-image {
+        width: 100%;
+    }
+
+    .banner-btn-icon {
+        display: none;
+    }
+}
+
+
+
+@media all and (max-width: 900px) {
+
+    
+
+
+    /*TextSection*/
+
+    .text-container {
+        width: 80%;
+    }
+
+    .text-section {
+        height: 550px;
+    }
+
+    .text-title {
+        font-size: 1.5rem;
+    }
+    
+    .text-body {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+
+    .text-announcement {
+        font-size: 1.2rem;
+    }
+
+    .images-grid {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .grid-wrapper {
+        align-self: center;
+        display: grid;
+        gap: 0.7em;
+        width: auto;
+        height: 300px;
+        grid-template-columns: 1fr;
+        grid-auto-flow: dense;
+        margin: 0 auto;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .image-item {
+        width: 450px;
+        height: 250px;
+    }
+}
+
+@media all and (max-width: 700px) {
+
+    /**/
+    .text-section {
+        height: 350px;
+    }
+
+    .text-title, .text-container > h3 {
+        font-size: 1rem;
+    }
+
+    .text-container{
+        width: 70%;
+    }
+    
+    .text-body {
+        font-size: 0.7rem;
+        line-height: 1.2;
+    }
+
+    .text-announcement {
+        font-size: 0.8rem;
+    }
+
+    /*Image Grid*/
+
+    .images-grid {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .grid-wrapper {
+        align-self: center;
+        display: grid;
+        gap: 0.7em;
+        width: auto;
+        height: 300px;
+        grid-template-columns: 1fr;
+        grid-auto-flow: dense;
+        margin: 0 auto;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .image-container:last-child {
+        margin-bottom: 20px;
+    }
+
+    .image-item {
+        width: 250px;
+        height: 150px;
+    }
+
+    .image-text {
+        font-size: 1.2rem;
+    }
+}
