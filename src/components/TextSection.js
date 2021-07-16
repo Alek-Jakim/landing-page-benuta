@@ -13,8 +13,9 @@ const TextSection = () => {
                 </p>
                 <p className="text-body"><span className="text-announcement">Am Dienstag, 24. November 2020 um 12 Uhr geht's los.</span></p>
                 <p className="text-body">Entdecken Sie schon jetzt Teppiche & Accessoires und merken Sie sich Ihre Favoriten für die
+                    Preisschlacht des Jahres vor.
                 </p>
-                <h3>Jetzt schon stöbern</h3>
+                <h3>Jetzt schon stöbern:</h3>
                 <div className="scroll-down-btn">
                     <Link className="banner-btn-icon2" to="grid-area" smooth={true} duration={1000}>
                         <IoIosArrowDropdownCircle />
