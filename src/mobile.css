@@ -150,8 +150,7 @@
     }
 
     .text-title {
-        margin-top: 8rem;
-
+        margin-top: 5rem;
     }
 
     .text-container > h3 {
@@ -183,7 +182,7 @@
         justify-content: center;
         width: 100%;
         align-items: center;
-        margin: 7rem auto;
+        margin: 4rem auto;
     }
 
     .grid-wrapper {
@@ -214,5 +213,49 @@
     .image-text {
         font-size: 1.2rem;
     }
+
 }
 
+
+@media all and (max-width: 500px) {
+
+    /*Text Area*/
+    .text-section {
+        height: 450px;
+    }
+
+    .text-title, .text-container > h3 {
+        font-size: 1.2rem;
+    }
+
+    .text-container{
+        width: 80%;
+    }
+    
+    .text-body {
+        font-size: 0.9rem;
+        line-height: 1.2;
+        padding: 10px;
+    }
+
+    .text-announcement {
+        font-size: 1rem;
+    }
+
+    /*Mobile Input*/
+
+    .mobile-input {
+        width: 200px;
+    }
+
+    .mobile-input::placeholder {
+        font-size: 0.65rem;
+    }
+
+    /*Image Grid*/
+    .image-item {
+        width: 300px;
+        height: 180px;
+    }
+
+}
